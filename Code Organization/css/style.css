@@ -24,7 +24,7 @@ h1, p {
 }
 
 h2,h3 {
-  font-weight: bold;
+  font-weight: 400;
 }
 
 hr {
@@ -59,7 +59,7 @@ img:hover {
     height: 90px;
     margin: 0;
     padding: 20px 20px 40px 20px;
-	transition: all 0.4s ease-in-out;
+	  transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -70,7 +70,7 @@ img:hover {
 .navbar-default .navbar-nav li a {
     border-right: 1px solid #f9f9f9;
     color: #202020;
-     font-weight: bold;
+    font-weight: bold;
     padding-right: 40px;
     padding-left: 40px;
     line-height: 60px;
@@ -83,12 +83,13 @@ img:hover {
 .navbar-default .navbar-nav > li > a:clicked,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #f2af00;
+  color: #51806D
+  ;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #f2af00;
+  color: #51806D;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -148,14 +149,22 @@ img:hover {
 
 /* service section */
 #service {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 80px;
+  text-align: center;
 }
 #service h2 {
-  border-left: 2px solid #f2af00;
+  font-family: 'Raleway', sans-serif;
   display: inline-block;
   padding: 20px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 1.5;
+  color:#51806D
 }
+
 #service .fa {
   border-top: 3px solid #f2af00;
   border-bottom: 3px solid #dc5034;
@@ -178,6 +187,8 @@ img:hover {
   border-right: 2px solid #f2af00;
   display: inline-block;
   padding: 10px 20px 10px 10px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
 }
 #about .col-md-12 {
   text-align: center;
@@ -200,6 +211,7 @@ img:hover {
   border-left: 2px solid #f2af00;
   display: inline-block;
   padding: 10px 10px 10px 20px;
+  letter-spacing: 1.5px;
 }
 #team h4 {
 	padding-bottom: 40px;
@@ -220,9 +232,17 @@ img:hover {
   padding-bottom: 60px;
   }
 #portfolio h2 {
-  border-right: 2px solid #f2af00;
   display: inline-block;
   padding: 10px 20px 10px 10px;
+  padding-bottom: 70px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  line-height: 1.5;
+  color:#51806D;
+  margin-left: 150px;
+  margin-right: 150px;
+
 }
 /* FILTER CSS */
 .filter-wrapper {
@@ -436,7 +456,7 @@ footer span {
     -ms-transition: all 0.4s ease-in-out;
 }
 .social-icons li a:hover {
-  background: #f2af00;
+  background: #A1D04C;
 }
 
 /* copyright section */
@@ -449,7 +469,7 @@ footer span {
 /* scrolltop section */
 .go-top 
   {
-    background-color: #f2af00;
+    background-color: #A1D04C;
     font-size: 26px;
     bottom: 2em;
     right: 2em;
