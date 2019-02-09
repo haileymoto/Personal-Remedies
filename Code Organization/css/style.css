@@ -188,6 +188,27 @@ img:hover {
   padding: 40px;
 }
 
+#knowledge{
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+
+}
+
+#translation{
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+
+}
+
+#patient{
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+
+}
+
 /* about section */
 #about {
   background: #EEF5EC;
@@ -260,6 +281,29 @@ img:hover {
   margin-right: 150px;
 
 }
+
+#portfolio p{
+  text-align: left;
+  margin-left: 20px;
+}
+
+img.animated-gif{
+  height: 325px;
+  width: auto;
+  position: absolute;
+  z-index: 1; 
+  top: 47px; 
+  left: 165px;
+}
+
+img.black-phone{
+  height: 500px;
+  width: auto;
+  position: absolute;
+  top: -50px;
+  left: 120px;
+}
+
 /* FILTER CSS */
 .filter-wrapper {
     width: 100%;
